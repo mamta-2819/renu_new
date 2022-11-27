@@ -1,0 +1,48 @@
+
+.rw
+{
+    display: flex;
+}
+.single-service:nth-child(1) {
+    background-color: #6ab43e;
+}
+.single-service {
+    background-color: #6ab43e;
+    padding: 60px 15px;
+}
+@media (min-width: 992px)
+{
+
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
+
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}}
+.single-service img {
+    margin-bottom: 20px;
+}
+a, i, button, img, input, span, *:before, *:after {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.single-service h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.single-service p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+}
